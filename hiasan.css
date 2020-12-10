@@ -1,3 +1,7 @@
+body {
+	font-family: arial;
+}
+
 h3 {
     color: #fff;
     background-color: red;
@@ -19,26 +23,9 @@ h3 {
     border-color: #ffffff;
     font-size: 100%;
     line-height: 2;
+    text-decoration: none;
 }
 
-
-
-.uploader {
-	display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
-    background-color: red;
-    border-color: #ffffff;
-    font-size: 100%;
-    line-height: 2;
-}
 
 .ongoing {
 	display: inline;
@@ -55,9 +42,10 @@ h3 {
     border-color: #ffffff;
     font-size: 100%;
     line-height: 2;
+    text-decoration: none;
 }
 
-.btn-primary {
+.uploader {
 	display: inline;
     padding: .2em .6em .3em;
     font-size: 75%;
@@ -72,6 +60,25 @@ h3 {
     border-color: #ffffff;
     font-size: 100%;
     line-height: 2;
+    text-decoration: none;
+}
+
+.genre {
+	display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: red;
+    border-color: #ffffff;
+    font-size: 100%;
+    line-height: 2;
+    text-decoration: none;
 }
 
 .download {
@@ -92,12 +99,15 @@ h3 {
     border-top-color: red;
 }
 
-.judul-table {
-    color: #fff;
-    background-color: red;
-    border-color: #ffffff;
-}
-
 .post-title {
 	text-align: center;
 }
+
+.judul-table {
+    color: #fff
+    background-color: red
+    border-color: #fffff
+}
+
+
+
