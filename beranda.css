@@ -30,6 +30,23 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+h1 {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: red;
+    border-color: #ffffff;
+    font-size: 100%;
+    line-height: 2;
+    text-decoration: none;
+}
 user agent stylesheet
 h2 {
     display: block;
@@ -39,9 +56,6 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-h2.episodeye a {
-    color: #444;
 }
 a {
     color: #fff;
@@ -118,25 +132,33 @@ img[Attributes Style] {
     content: "\f02b";
 }
 .rvad {
-    border-bottom: 3px solid #eaeaea;
+    border-bottom: 3px solid #ff0000;
     padding: 5px;
     margin: 0 0 5px;
 }
 .rvad h1 {
     font-size: 12px;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
     margin: 0;
     text-transform: uppercase;
 }
 .episodeye {
-    font-size: 13px;
-    margin-top: 0;
-    line-height: 20px;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
     font-weight: 700;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
     white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: red;
+    border-color: #ffffff;
+    font-size: 100%;
+    line-height: 2;
+    text-decoration: none;
 }
 .iconf {
     float: right;
@@ -188,16 +210,11 @@ img[Attributes Style] {
     background: #fafafa;
     padding: 5px 7px;
 }
-.content h2 {
-    color: #444;
-    font-size: 13px;
-    margin: 0;
-}
 .content a {
     color: #fff;
 }
 .content h2 {
-    color: #444;
+    color: #fff;
     font-size: 13px;
     margin: 0;
 }
