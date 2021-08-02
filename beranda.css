@@ -122,7 +122,8 @@ img[Attributes Style] {
 .fa-feed:before, .fa-rss:before {
     content: "\f09e";
 }
-.fa-user:before {
+fa-user:before {
+    font-family: FontAwesome;
     content: "\f007";
 }
 .fa-clock-o:before {
