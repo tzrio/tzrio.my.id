@@ -123,8 +123,7 @@ img[Attributes Style] {
     content: "\f09e";
 }
 .fa-user:before {
-    font-family: FontAwesome;
-    content: "\f007";
+    content: "\f052";
 }
 .fa-clock-o:before {
     content: "\f017";
